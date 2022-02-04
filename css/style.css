@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;700&family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    margin:1%;
+	padding:1%;
+    font-family: 'Sora', sans-serif;
+}
+
+.skip {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+
+h1{
+	font-size: 30px; 
+	font-weight: 700;
+}
+
+h2{
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+h3 {
+    font-size: 18px; 
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: rgb(79, 79, 194);
+}
+
+img {
+    margin: 20px;
+    border: 5px solid rgb(79, 79, 194);
+    padding: 10px;
+    width: 400px;
+}
+
+p, h1, h2, h3 {
+    padding: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+img:hover {
+ filter: sepia(70%);
+}
+
+.banner {
+    width: 95%;
+}
+
+li a {
+    color: rgb(159, 159, 253);
+    font-size: 15px;
+}
+
+footer {
+padding: 20px;
+background-color: rgb(79, 79, 194);
+color: white;
+}
